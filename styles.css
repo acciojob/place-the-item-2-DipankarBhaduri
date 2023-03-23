@@ -1,22 +1,25 @@
 
 /* Your CSS Code here. */
 .holder{
-    display: flex;
-    
-   margin: 0;
-    background-color: antiquewhite;
-    border: 2px solid gray;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* justify-content: space-between ; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+		flex-wrap: wrap;
+}
+.item{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+		font-size:40px
+}
+.item-1{
+	background-color: green;
 }
 
-.box1{
-    width: 122px;
-    height:122px;
-    background-color: green;
-    border: 5px solid red;
-    margin: 0;
-	
+.item-3{
+	background-color: blue;
 }
-/* Your CSS Code here. */
+
+
+
+
