@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+.holder{
+    display: flex;
+    
+   margin: 0;
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* justify-content: space-between ; */
+}
+
+.box1{
+    width: 122px;
+    height:122px;
+    background-color: green;
+    border: 5px solid red;
+    margin: 0;
+	
+}
+/* Your CSS Code here. */
